@@ -1,0 +1,35 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    border: 0;
+}
+
+.container {
+    display: flex;
+    height: 100%;
+}
+
+.drawer {
+    width: 250px; /* Adjust this width as necessary */
+    background-color: #f4f4f4; /* Light background color for the drawer */
+    padding: 15px;
+    box-shadow: 2px 0 5px rgba(0,0,0,0.1);
+}
+
+.clientbody {
+    flex: 1;
+    background-color: #ffffff; /* White background for the main content */
+    padding: 20px;
+    overflow: auto; /* Ensures scrolling if content overflows */
+    margin-top: 300px;
+}
+
+.telephone-input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    height: 56px;
+    font-size: 0.9rem;
+}

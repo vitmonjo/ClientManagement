@@ -1,0 +1,63 @@
+.modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+  }
+  
+  .modal {
+    background: #fff;
+    padding: 40px;
+    border-radius: 8px;
+    max-width: 800px;
+    width: 100%;
+    text-align: center;
+  }
+  
+  .modal h2 {
+    margin: 0 0 20px 0;
+    font-size: 24px;
+  }
+  
+  .modal .telephones, .modal .emails {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 10px;
+  }
+  
+  .modal .telephone, .modal .email {
+    background: #e0e0e0;
+    border-radius: 16px;
+    padding: 5px 10px;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+  }
+  
+  .modal .telephone button, .modal .email button {
+    background: none;
+    border: none;
+    font-size: 16px;
+    margin-left: 10px;
+    cursor: pointer;
+  }
+  
+  .modal button {
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+
+  .client-contact-modal {
+    min-width: 1000px;
+  }
+
+  .client-contacts-datagrid {
+    min-height: 600px;
+  }
+  
