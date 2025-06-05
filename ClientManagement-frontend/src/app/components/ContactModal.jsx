@@ -56,7 +56,7 @@ const ContactModal = ({ show, onClose, message, contact = {}, clientId, isCreate
             const url = isCreate
                 ? `http://localhost:8080/contact`
                 : `http://localhost:8080/contact/${contact.id}`;
-            const method = isCreate ? 'POST' : 'PUT';
+            const method = isCreate ? 'POST' : 'PATCH';
 
             const response = await fetch(url, {
                 method: method,
