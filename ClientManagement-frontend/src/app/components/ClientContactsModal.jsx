@@ -128,19 +128,22 @@ const ClientContactsModal = ({ show, onClose, message, client = {} }) => {
 
     const fetchContacts = async (clientId) => {
         try {
-            const response = await fetch(`http://localhost:8080/contact/client/${clientId}`);
+            const response = await fetch(`http://localhost:8080/contact/${clientId}`);
 
             if (!response.ok) {
-                if (response.status === 404) {
-                    setRows([]);
+                if (response.status === 404 || response.status === 204) {
+                    setRows([]); // No contacts found
+                    return;
                 } else {
                     throw new Error(`Failed to fetch contacts: ${response.statusText}`);
                 }
-            } else {
-                const data = await response.json();
-                const dataWithIds = data.map((item) => ({ id: item._id, ...item }));
-                setRows(dataWithIds);
             }
+
+            // Check if response has content before trying to parse JSON
+            const text = await response.text();
+            const data = text ? JSON.parse(text) : [];
+            const dataWithIds = data.map((item) => ({ id: item._id, ...item }));
+            setRows(dataWithIds);
         } catch (error) {
             console.error('Error fetching contacts:', error);
         }
