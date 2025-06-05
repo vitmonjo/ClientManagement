@@ -62,6 +62,13 @@ public class ClientController {
         return repository.findAll().stream().map(ClientResponseDTO::new).toList();
     }
 
+    @GetMapping("/{id}")
+    public ResponseEntity<ClientResponseDTO> getById(@PathVariable String id) {
+        return repository.findById(id)
+                .map(client -> ResponseEntity.ok(new ClientResponseDTO(client)))
+                .orElse(ResponseEntity.notFound().build());
+    }
+
     @DeleteMapping("/{id}")
     public ResponseEntity<Object> deleteClient(@PathVariable String id) {
         if (repository.existsById(id)) {
