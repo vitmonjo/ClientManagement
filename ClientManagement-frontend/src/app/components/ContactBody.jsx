@@ -77,23 +77,21 @@ export default function Body() {
     const fetchClientName = async (clientId) => {
         try {
             const response = await fetch(`http://localhost:8080/client/${clientId}`);
+
             if (!response.ok) {
                 throw new Error('Failed to fetch client name');
             }
-            const data = await response.json();
 
-            // Ensure data.name exists before updating clientNameMap
-            if (data.name !== undefined && data.name !== null) {
-                setClientNameMap((prevMap) => ({
-                    ...prevMap,
-                    [clientId]: data.name,
-                }));
-            } else {
-                setClientNameMap((prevMap) => ({
-                    ...prevMap,
-                    [clientId]: 'Desconhecido',
-                }));
-            }
+            // Handle empty or non-JSON responses gracefully
+            const text = await response.text();
+            const data = text ? JSON.parse(text) : null;
+
+            const name = data?.name;
+            setClientNameMap((prevMap) => ({
+                ...prevMap,
+                [clientId]: name ?? 'Desconhecido',
+            }));
+
         } catch (error) {
             console.error(`Error fetching client name for clientId ${clientId}:`, error);
             setClientNameMap((prevMap) => ({
@@ -167,11 +165,18 @@ export default function Body() {
     useEffect(() => {
         let updatedRows = rows;
 
-        if (searchName.startsWith('#')) {
-            const telephoneNames = searchName.slice(1).toLowerCase().split(' #').map(telephone => telephone.trim());
+        if (searchName.startsWith('#tel:')) {
+            const telQuery = searchName.slice(5).toLowerCase().split(' #tel:').map(t => t.trim());
             updatedRows = rows.filter((row) =>
-                telephoneNames.every(telephoneName =>
-                    row.telephones.some((telephone) => telephone.toLowerCase().includes(telephoneName))
+                telQuery.every(tel =>
+                    row.telephones.some((telephone) => telephone.toLowerCase().includes(tel))
+                )
+            );
+        } else if (searchName.startsWith('#email:')) {
+            const emailQuery = searchName.slice(7).toLowerCase().split(' #email:').map(e => e.trim());
+            updatedRows = rows.filter((row) =>
+                emailQuery.every(email =>
+                    row.emails.some((em) => em.toLowerCase().includes(email))
                 )
             );
         } else {
@@ -183,7 +188,6 @@ export default function Body() {
         setFilteredRows(updatedRows);
     }, [searchName, rows]);
 
-    // Render functions for DataGrid cells
     function renderEmailsCell(params) {
         return (
             <Box sx={{ display: 'flex', flexDirection: 'row', alignContent: 'center', alignItems: 'center', gap: 0.5, paddingTop: '8px' }}>
@@ -192,6 +196,7 @@ export default function Body() {
                         key={index}
                         label={email}
                         sx={{ cursor: 'pointer' }}
+                        onClick={() => setSearchName(`#email:${email}`)}
                     />
                 ))}
             </Box>
@@ -206,6 +211,7 @@ export default function Body() {
                         key={index}
                         label={telephone}
                         sx={{ cursor: 'pointer' }}
+                        onClick={() => setSearchName(`#tel:${telephone}`)}
                     />
                 ))}
             </Box>
