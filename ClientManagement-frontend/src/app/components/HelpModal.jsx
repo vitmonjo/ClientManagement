@@ -23,8 +23,7 @@ const HelpModal = ({ show, onClose, caller }) => {
             <div className="modal">
                 <h2>Ajuda</h2>
                 <p className="help-modal-text">
-                    Digite para procurar por um nome, ou use # para procurar por um telefone específico. Você
-                    pode procurar por múltiplos telefones separando-os por um espaço.
+                    Digite para procurar por um nome, use #tel: para procurar por um telefone específico ou #email: para procurar por um email específico.
                 </p>
                 {additionalText}
                 <Button sx={{ marginTop: '15px' }} color="error" onClick={onClose}>
