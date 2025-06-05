@@ -135,9 +135,14 @@ export default function Body() {
         setSearchName(e.target.value);
     };
 
-    const handleTelephoneClick = (telephone) => {
-        setSearchName(`#${telephone}`);
+    const handleChipClick = (type, value) => {
+        if (type === 'telephone') {
+            setSearchName(`#tel:${value}`);
+        } else if (type === 'email') {
+            setSearchName(`#email:${value}`);
+        }
     };
+
 
     const toggleHelpModal = () => {
         setShowHelpModal(!showHelpModal);
@@ -151,21 +156,29 @@ export default function Body() {
     useEffect(() => {
         let updatedRows = rows;
 
-        if (searchName.startsWith('#')) {
-            const telephoneNames = searchName.slice(1).toLowerCase().split(' #').map(telephone => telephone.trim());
-            updatedRows = rows.filter((row) =>
-                telephoneNames.every(telephoneName =>
-                    row.telephones.some((telephone) => telephone.toLowerCase().includes(telephoneName))
+        if (searchName.startsWith('#tel:')) {
+            const telephoneNames = searchName.slice(5).toLowerCase().split(' #tel:').map(t => t.trim());
+            updatedRows = rows.filter(row =>
+                telephoneNames.every(tel =>
+                    row.telephones.some(t => t.toLowerCase().includes(tel))
+                )
+            );
+        } else if (searchName.startsWith('#email:')) {
+            const emailNames = searchName.slice(7).toLowerCase().split(' #email:').map(e => e.trim());
+            updatedRows = rows.filter(row =>
+                emailNames.every(email =>
+                    row.emails.some(e => e.toLowerCase().includes(email))
                 )
             );
         } else {
-            updatedRows = rows.filter((row) =>
+            updatedRows = rows.filter(row =>
                 row.name.toLowerCase().includes(searchName.toLowerCase())
             );
         }
 
         setFilteredRows(updatedRows);
     }, [searchName, rows]);
+
 
     // Render functions for DataGrid cells
     function renderEmailsCell(params) {
@@ -175,12 +188,14 @@ export default function Body() {
                     <Chip
                         key={index}
                         label={email}
+                        onClick={() => handleChipClick('email', email)}
                         sx={{ cursor: 'pointer' }}
                     />
                 ))}
             </Box>
         );
     }
+
 
     function renderTelephonesCell(params) {
         return (
@@ -189,13 +204,14 @@ export default function Body() {
                     <Chip
                         key={index}
                         label={telephone}
-                        onClick={() => handleTelephoneClick(telephone)}
+                        onClick={() => handleChipClick('telephone', telephone)}
                         sx={{ cursor: 'pointer' }}
                     />
                 ))}
             </Box>
         );
     }
+
 
     function renderCreatedAtCell(params) {
         const formattedDate = moment(params.value).format('DD/MM/YYYY - HH:mm');
