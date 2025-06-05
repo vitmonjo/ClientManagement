@@ -51,6 +51,21 @@ public class ContactController {
         return repository.findAll().stream().map(ContactResponseDTO::new).toList();
     }
 
+    @GetMapping("/{clientId}")
+    public ResponseEntity<List<ContactResponseDTO>> getByClientId(@PathVariable String clientId) {
+        List<Contact> contacts = repository.findByClientId(clientId);
+        if (contacts.isEmpty()) {
+            return ResponseEntity.noContent().build(); // or .ok(Collections.emptyList())
+        }
+
+        List<ContactResponseDTO> result = contacts.stream()
+                .map(ContactResponseDTO::new)
+                .toList();
+
+        return ResponseEntity.ok(result);
+    }
+
+
     @DeleteMapping("/{id}")
     public ResponseEntity<Object> deleteContact(@PathVariable String id) {
         if (repository.existsById(id)) {
