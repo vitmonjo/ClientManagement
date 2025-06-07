@@ -1,0 +1,18 @@
+[2025-06-07 16:01:09] Topic: contact-events | Partition: 0 | Offset: 0
+Message: {"action":"CONTACT_CREATED","contactId":"a1a4b9be-b3be-492c-ace1-b32cd0a66986","name":"Contato Teste","emails":[a@asadaw],"telephones":[(14) 31111-1111, (22) 22222-2222],"clientId":"c4b58c9c-7f65-4adf-8e93-97e7c717b212","timestamp":"2025-06-06T03:08:31.448719300Z"}
+================================================================================
+[2025-06-07 16:01:09] Topic: contact-events | Partition: 0 | Offset: 1
+Message: {"action":"CONTACT_UPDATE_BEFORE","contactId":"a1a4b9be-b3be-492c-ace1-b32cd0a66986","name":"Contato Teste","emails":[a@asadaw],"telephones":[(14) 31111-1111, (22) 22222-2222],"clientId":"c4b58c9c-7f65-4adf-8e93-97e7c717b212","timestamp":"2025-06-06T03:09:08.564426100Z"}
+================================================================================
+[2025-06-07 16:01:09] Topic: contact-events | Partition: 0 | Offset: 2
+Message: {"action":"CONTACT_UPDATE_AFTER","contactId":"a1a4b9be-b3be-492c-ace1-b32cd0a66986","name":"Contato Teste Updated","emails":[a@asadaw],"telephones":[(14) 31111-1111],"clientId":"c4b58c9c-7f65-4adf-8e93-97e7c717b212","fieldsUpdated":[clientId, name, emails, telephones],"timestamp":"2025-06-06T03:09:08.577079Z"}
+================================================================================
+[2025-06-07 16:01:09] Topic: contact-events | Partition: 0 | Offset: 3
+Message: {"action":"CONTACT_DELETED","contactId":"a1a4b9be-b3be-492c-ace1-b32cd0a66986","name":"Contato Teste Updated","emails":[a@asadaw],"telephones":[(14) 31111-1111],"clientId":"c4b58c9c-7f65-4adf-8e93-97e7c717b212","timestamp":"2025-06-06T03:09:21.492613700Z"}
+================================================================================
+[2025-06-07 16:01:09] Topic: contact-events | Partition: 0 | Offset: 4
+Message: {"action":"CONTACT_CREATED","contactId":"771762d6-f185-45a8-9e74-7a453fc4338b","name":"asgaa","emails":[aasfaf],"telephones":[(54) 77485-6855],"clientId":"83dcf126-a525-40ef-a3ae-ebb45b1e8729","timestamp":"2025-06-07T17:44:14.572143300Z"}
+================================================================================
+[2025-06-07 16:01:09] Topic: contact-events | Partition: 0 | Offset: 5
+Message: {"action":"CONTACT_DELETED","contactId":"771762d6-f185-45a8-9e74-7a453fc4338b","name":"asgaa","emails":[aasfaf],"telephones":[(54) 77485-6855],"clientId":"83dcf126-a525-40ef-a3ae-ebb45b1e8729","timestamp":"2025-06-07T17:44:17.068697300Z"}
+================================================================================

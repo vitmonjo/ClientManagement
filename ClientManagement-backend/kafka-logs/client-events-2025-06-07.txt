@@ -1,0 +1,243 @@
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 0
+Message: Test
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 1
+Message: a
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 2
+Message: ok
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 3
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 4
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 5
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 6
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 7
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 8
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 9
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 10
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 11
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 12
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 13
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 14
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 15
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 16
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 17
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 18
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 19
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 20
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 21
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 22
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 23
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 24
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 25
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 26
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 27
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 28
+Message: Criou um Cliente
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 29
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 30
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 31
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 32
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 33
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 34
+Message: Apagou um Cliente
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 35
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 36
+Message: Apagou um Cliente
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 37
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 38
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 39
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 40
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 41
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 42
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 43
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 44
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 45
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 46
+Message: Criou um Cliente
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 47
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 48
+Message: Apagou um Cliente
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 49
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 50
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 51
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 52
+Message: {"action":"CLIENT_CREATED","clientId":8bd04f27-dc11-4245-a9d6-8cac8492f72b,"name":"teste","timestamp":"2025-06-06T02:23:12.279906300Z"}
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 53
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 54
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 55
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 56
+Message: {"action":"CLIENT_UPDATE_BEFORE","clientId":"8bd04f27-dc11-4245-a9d6-8cac8492f72b","name":"teste","emails":[a@b],"telephones":[(12) 41564-2634, (74) 75553-5363],"timestamp":"2025-06-06T02:27:58.143485900Z"}
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 57
+Message: {"action":"CLIENT_UPDATE_AFTER","clientId":"8bd04f27-dc11-4245-a9d6-8cac8492f72b","name":"teste updated","emails":[a@b, asdasdasdasd],"telephones":[(12) 41564-2634, (74) 75553-5363],"fieldsUpdated":[name, emails, telephones],"timestamp":"2025-06-06T02:27:58.188688300Z"}
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 58
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 59
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 60
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 61
+Message: {"action":"CLIENT_DELETED","clientId":"8bd04f27-dc11-4245-a9d6-8cac8492f72b","name":"teste updated","timestamp":"2025-06-06T02:29:47.999113500Z"}
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 62
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 63
+Message: {"action":"CLIENT_CREATED","clientId":"75bb3acf-d625-40b0-8c4c-1fd5907c94d3","name":"Teste Kafka","emails":[a@a, b@b],"telephones":[(64) 55763-6433, (73) 34343-4637, (62) 33624-6363],"timestamp":"2025-06-06T02:30:15.776111100Z"}
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 64
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 65
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 66
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 67
+Message: {"action":"CLIENT_CREATED","clientId":"cdd14c63-0365-45b5-b2f4-6e603891622c","name":"a","emails":[a],"telephones":[(1],"timestamp":"2025-06-06T02:32:02.845153400Z"}
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 68
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 69
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 70
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 71
+Message: {"action":"CLIENT_CREATED","clientId":"268daede-ff44-4550-ab2e-79d805618bcc","name":"b","emails":[b],"telephones":[],"timestamp":"2025-06-06T02:33:11.263843400Z"}
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 72
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 73
+Message: {"action":"CLIENT_DELETED","clientId":"268daede-ff44-4550-ab2e-79d805618bcc","name":"b","emails":[b],"telephones":[],"timestamp":"2025-06-06T02:33:15.594625400Z"}
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 74
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 75
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:09] Topic: client-events | Partition: 0 | Offset: 76
+Message: Buscou todos os Clientes
+================================================================================
+[2025-06-07 16:01:56] Topic: client-events | Partition: 0 | Offset: 77
+Message: {"action":"CLIENT_CREATED","clientId":"ee54d776-2a25-4d08-922d-1cf9b01474d5","name":"aaaaaa","emails":[a@a],"telephones":[(11) 11111-1111],"timestamp":"2025-06-07T19:01:56.859823300Z"}
+================================================================================
+[2025-06-07 16:02:13] Topic: client-events | Partition: 0 | Offset: 78
+Message: {"action":"CLIENT_DELETED","clientId":"ee54d776-2a25-4d08-922d-1cf9b01474d5","name":"aaaaaa","emails":[a@a],"telephones":[(11) 11111-1111],"timestamp":"2025-06-07T19:02:13.344577Z"}
+================================================================================
+[2025-06-07 16:16:24] Topic: client-events | Partition: 0 | Offset: 0
+Message: {"action":"CLIENT_CREATED","clientId":"731598a7-1741-46ec-a573-f7445aa8a133","name":"aaaaaaaaaaaaaaaa","emails":[1421341214, 6432433547736376356743675],"telephones":[(11) 2414],"timestamp":"2025-06-07T19:16:24.662092300Z"}
+================================================================================
+[2025-06-07 16:17:25] Topic: client-events | Partition: 0 | Offset: 1
+Message: {"action":"CLIENT_DELETED","clientId":"731598a7-1741-46ec-a573-f7445aa8a133","name":"aaaaaaaaaaaaaaaa","emails":[1421341214, 6432433547736376356743675],"telephones":[(11) 2414],"timestamp":"2025-06-07T19:17:25.410388Z"}
+================================================================================
